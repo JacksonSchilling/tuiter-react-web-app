@@ -1,0 +1,30 @@
+.wd-fg-color-white { color: white; }
+
+.wd-font-13 {
+    font-size: 13px ;
+}
+.wd-font-15 {
+    font-size: 15px;
+}
+
+.wd-left-padding-16 {
+    padding-left: 16px;
+}
+
+.wd-bottom-padding-12 {
+    padding-bottom: 12px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-lightgray-border {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.wd-remove-underline {
+    text-decoration: none;
+}

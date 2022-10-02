@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    margin-left: 16px;
+    border-color: rgb(47,51,54);
+    border-style: solid;
+}
+
+.wd-top-padding-12 {
+    padding-top: 12px;
+}
+
+.wd-left-padding-12 {
+    padding-left: 12px;
+}
+
+.wd-right-padding-16 {
+    padding-right: 16px;
+}
+
+.wd-right-padding-12 {
+    padding-right: 12px;
+}
+
+.wd-font-20 {
+    font-size: 20px;
+}
+
+.wd-fg-color-lightgray {
+    color: lightgray;
+}
+
+.wd-avatar-image {
+    border-radius: 24px;
+    height: 48px
+}
+
+.wd-align-top {
+    vertical-align: top;
+}
+
+.wd-align-middle{
+    vertical-align: middle;
+}
+
+.wd-max-width-506 {
+    max-width: 506px;
+    margin-top: -40px;
+    margin-left: 52px;
+}
+
+.wd-content-image {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-rounded-top-corners {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-padding-12 {
+    padding: 12px;
+}
+
+.wd-margin-left-64 {
+    margin-left: 64px;
+}
+
+.wd-margin-left-66 {
+    margin-left: 66px;
+}
+
+.wd-margin-left-48 {
+    margin-left: 48px;
+}
+
+.wd-icon-size {
+    height: 20px
+}
+
+.wd-fg-color-red {
+    color: red
+}
