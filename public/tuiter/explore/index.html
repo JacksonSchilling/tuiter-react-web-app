@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Explore</title>
 
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
     <link href="index.css"
           rel="stylesheet"/>
     <link href="../styles.css"
@@ -11,53 +14,244 @@
 
 </head>
 <body>
-<input class="wd-rounded-corners-all-around wd-fg-color-white wd-bg-color-darkgray wd-margin-right-100 wd-full-width"
-       placeholder="Search Tuiter"
-       height="30px"
-       width="500px"
-       type="search"
->
-<a href="explore-settings.html">
-    <img src="images/settings.jpg" class="wd-margin-right-12 wd-image-size-20"/>
-</a><br><br>
 
-<a class="wd-blue-highlight-text wd-blue-highlight-border wd-link-padding wd-font-15 wd-remove-underline" href="">For You</a>
-<a class="wd-link-color wd-link-padding wd-font-15 wd-remove-underline" href="">Trending</a>
-<a class="wd-link-color wd-link-padding wd-font-15 wd-remove-underline" href="">COVID-19</a>
-<a class="wd-link-color wd-link-padding wd-font-15 wd-remove-underline" href="">News</a>
-<a class="wd-link-color wd-link-padding wd-font-15 wd-remove-underline" href="">Sports</a>
-<a class="wd-link-color wd-link-padding wd-font-15 wd-remove-underline" href="">Entertainment</a>
-<br><br><hr>
+<div class="row bg-dark text-white">
+    <div class="col-lg-2 col-1 ps-4">
+        <div class="row py-2">
+            <span>T</span>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-home" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Home
+            </div>
+        </div>
+        <div class="row bg-primary py-2">
+            <div class="col-1">
+                <i class="fa fa-hashtag" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Explore
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-bell" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Notifications
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-envelope" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Messages
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-bookmark" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Bookmarks
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-list" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Lists
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-user" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                Profile
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-1">
+                <i class="fa fa-ellipsis-h" style="color: white"></i>
+            </div>
+            <div class="col d-none d-lg-block">
+                More
+            </div>
+        </div>
+        <div class="row py-2">
+            <button class="rounded-pill bg-primary text-white text-start text-lg-center border-0" href="#"> Tuit</button>
+        </div>
+    </div>
+    <div class="col-lg-6 col-11 text-white">
+        <div class="row">
+            <div class="col-10">
+                <input class="rounded-pill col-10 bg-secondary border-0"
+                         placeholder="Search Tuiter"
+                         type="text">
+            </div>
+            <div class="col-2">
+                <i class="fa fa-cog align-top"
+                   style="color: white; font-size: 1.8em">
+                </i>
+            </div>
+        </div>
 
-<p class="wd-link-color wd-font-13 wd-left-padding-16">Trending in Science</p>
-<p class="wd-left-padding-16 wd-fg-color-white">Starship</p>
-<p class="wd-link-color wd-font-13 wd-left-padding-16">55.5K Tweets</p>
-<br>
 
-<p class="wd-fg-color-white wd-font-13 wd-left-padding-16">The Times and The Sunday Times </p>
-<img src="images/optimus.jpeg" class="wd-float-right wd-margin-right-16 wd-image-size-100 wd-rounded-corners-all-around"/>
-<p class="wd-fg-color-white wd-left-padding-16 ">Elon Musk unveils Tesla’s humanoid robot Optimus</p>
-<br>
 
-<p class="wd-link-color wd-font-13 wd-left-padding-16">Trending in Massachusetts</p>
-<p class="wd-fg-color-white wd-left-padding-16">UMass</p>
-<p class="wd-link-color wd-font-13 wd-left-padding-16 wd-lightgray-border wd-bottom-padding-12">1,928 Tweets</p>
-<br>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="../for-you.html">For You</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="../trending.html">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="../news.html">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="../sports.html">Sports</a>
+            </li>
+            <li class="nav-item border-bottom">
+                <a class="nav-link text-white" href="../entertainment.html">Entertainment</a>
+            </li>
+        </ul>
 
-<p class="wd-fg-color-white wd-font-13 wd-left-padding-16">The Boston Globe</p>
-<img src="images/putin.jpeg" class="wd-float-right wd-margin-right-16 wd-image-size-100 wd-rounded-corners-all-around"/>
-<p class="wd-fg-color-white wd-left-padding-16">Putin claims annexation of four Ukrainian territories in Kremlin ceremony</p>
-<br><br>
+        <hr>
+        <div class="card">
+            <img class="card-img-top" src=
+                    "images/starship.webp">
 
-<p class="wd-link-color wd-font-13 wd-left-padding-16">COVID-19</p>
-<img src="images/covid.jpeg" class="wd-float-right wd-margin-right-16 wd-image-size-100 wd-rounded-corners-all-around"/>
-<p class="wd-fg-color-white wd-left-padding-16">Omicron variant continues to spread</p>
-<br><br>
+            <div class="card-img-overlay card-inverse d-flex flex-column justify-content-end align-bottom p-0">
+                <h4 class="text-stroke text-white">
+                    SpaceX's Starship
+                </h4>
+            </div>
+        </div>
 
-<p class="wd-link-color wd-font-13 wd-left-padding-16">Sports</p>
-<img src="images/bruins.jpg" class="wd-float-right wd-margin-right-16 wd-image-size-100 wd-rounded-corners-all-around"/>
-<p class="wd-fg-color-white wd-left-padding-16">Boston Bruins win season opener</p>
-<br><br><br>br>
+        <div></div>
+
+        <div class="row border override-bs border-top-0 m-0 py-2">
+            <div class="col ps-3">
+                <span class="small text-secondary">Web Development</span><br>
+                <span class="h6 fw-bold">ReactJS <i class="fa fa-check-circle"></i> <span class="text-secondary"> - 2h</span></span><br>
+                <span class="fw-bold">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</span>
+            </div>
+            <div class="col">
+                <img class="rounded" src="images/react.png" height="120px">
+            </div>
+        </div>
+
+        <div class="row border override-bs border-top-0 m-0 py-2">
+            <div class="col ps-3">
+                <span class="h6 fw-bold">JavaScript <i class="fa fa-check-circle"></i> <span class="text-secondary"> - 2h</span></span><br>
+                <span class="fw-bold">JavaScript is programming language that can run on browsers as well as desktops</span><br>
+                <span class="small text-secondary">123K Tweets</span><br>
+            </div>
+            <div class="col">
+                <img class="rounded-3" src="images/js.png" height="120px">
+            </div>
+        </div>
+
+        <div class="row border border-top-0 m-0 py-2">
+            <div class="col ps-3">
+                <span class="small text-secondary border-dark">Web Development</span><br>
+                <span class="h6 fw-bold">jQuery</span><br>
+                <span class="small text-secondary">123K Tweets</span><br>
+            </div>
+            <div class="col">
+                <img class="rounded-3" src="https://www.opeldo.com/public/images/jquery_logo.png" height="120px">
+            </div>
+        </div>
+
+        <div class="row border border-top-0 m-0 py-2">
+            <div class="col ps-3">
+                <span class="small text-secondary border-dark">Web Development</span><br>
+                <span class="h6 fw-bold">NodeJS <i class="fa fa-check-circle"></i> <span class="text-secondary"> - 2h</span></span><br>
+                <span class="small text-secondary">123K Tweets</span><br>
+            </div>
+            <div class="col">
+                <img class="rounded-3" src="images/node.png" height="120px">
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="col-lg-3 d-none d-lg-block">
+        <div class="row border border-top-0">
+            <span class="fw-bold">Who to Follow</span>
+        </div>
+        <div class="row border border-top-0">
+            <div class="col-2">
+                <img class="rounded-circle" src="images/java.png" height="40px" width="40px">
+            </div>
+            <div class="col-4 col-xl-6">
+                <span class="h6 fw-bold">Java <i class="fa fa-check-circle"></i></span><br>
+                <span class="small text-secondary border-dark">@java</span><br>
+            </div>
+            <div class="col pt-2">
+                <button class="rounded-pill bg-primary btn-sm text-white border-0" href="#"> Follow</button>
+            </div>
+        </div>
+        <div class="row border border-top-0">
+            <div class="col-2">
+                <img class="rounded-circle" src="images/rs.webp" height="40px">
+            </div>
+            <div class="col-4 col-xl-6">
+                <span class="h6 fw-bold">Relativity Space <i class="fa fa-check-circle"></i></span><br>
+                <span class="small text-secondary border-dark">@relativityspace</span><br>
+            </div>
+            <div class="col pt-2">
+                <button class="rounded-pill bg-primary btn-sm text-white border-0" href="#"> Follow</button>
+            </div>
+        </div>
+        <div class="row border border-top-0">
+            <div class="col-2">
+                <img class="rounded-circle" src="images/virgin.svg" height="40px">
+            </div>
+            <div class="col-4 col-xl-6">
+                <span class="h6 fw-bold">Virgin Galactic <i class="fa fa-check-circle"></i></span><br>
+                <span class="small text-secondary border-dark">@virgingalactic</span><br>
+            </div>
+            <div class="col pt-2">
+                <button class="rounded-pill bg-primary btn-sm text-white border-0" href="#"> Follow</button>
+            </div>
+        </div>
+        <div class="row border border-top-0">
+            <div class="col-2">
+                <img class="rounded-circle" src="images/nasa.jpg" height="40px" width="40px">
+            </div>
+            <div class="col-4 col-xl-6">
+                <span class="h6 fw-bold">Nasa <i class="fa fa-check-circle"></i></span><br>
+                <span class="small text-secondary border-dark">@NASA</span><br>
+            </div>
+            <div class="col pt-2">
+                <button class="rounded-pill bg-primary btn-sm text-white border-0" href="#"> Follow</button>
+            </div>
+        </div>
+        <div class="row border border-top-0">
+            <div class="col-2">
+                <img class="rounded-circle" src="images/tesla.png" height="40px">
+            </div>
+            <div class="col-4 col-xl-6">
+                <span class="h6 fw-bold">Tesla <i class="fa fa-check-circle"></i></span><br>
+                <span class="small text-secondary border-dark">@Tesla</span><br>
+            </div>
+            <div class="col pt-2">
+                <button class="rounded-pill bg-primary btn-sm text-white border-0" href="#"> Follow</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
 
 
 </body>
