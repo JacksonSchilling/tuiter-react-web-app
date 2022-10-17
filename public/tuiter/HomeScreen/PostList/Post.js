@@ -1,0 +1,28 @@
+export default [
+    {
+        avatar: 'images/musk.jpg',
+        author: 'Elon Musk',
+        userName: 'elonmusk',
+        time: '23h',
+        body: 'I love space!',
+        image: 'images/space.jpg',
+        link_title: 'Countdown: Inspiration4 Mission to Space',
+        link_body: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all- civilian orbital space...',
+        replies: '4.2k',
+        retweets: '3.5k',
+        likes: '37.5k',
+    },
+    {
+        avatar: 'images/nyp.png',
+        author: 'New York Post',
+        userName: 'newyorkpost',
+        time: '23h',
+        body: '"Communism is really cool!" says girl reading book',
+        image: 'images/marx.jpg',
+        link_title: '"Communism is really cool!" says girl reading book',
+        link_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aborum...',
+        replies: '965',
+        retweets: '2.4k',
+        likes: '4k',
+    },
+];
