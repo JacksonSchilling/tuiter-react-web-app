@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css';
 import {useDispatch} from "react-redux";
-import {createTuit, deleteTuit} from "../../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../../services/tuits-thunks";
 
 function Liked(bool) {
     if(bool) {
@@ -31,7 +31,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <div className="row border py-2">
@@ -41,7 +41,7 @@ const TuitItem = (
             <div className="col-11">
                 <i className="bi bi-x-lg float-end"
                    onClick={() => deleteTuitHandler(Tuit._id)}></i>
-                <span className="h6 fw-bold">{Tuit.userName} <i className="fa fa-check-circle"></i> <span className="text-secondary"> @{Tuit.userName} - {Tuit.time}</span></span><br></br>
+                <span className="h6 fw-bold">{Tuit.username} <i className="fa fa-check-circle"></i> <span className="text-secondary"> @{Tuit.userName} - {Tuit.time}</span></span><br></br>
                 <span>{Tuit.tuit}</span><br></br>
                 <div className="col">
                     <span className="col-4 pe-4"><i className="fa fa-comment"></i><span> {Tuit.replies}</span></span>
